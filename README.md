@@ -1,5 +1,12 @@
 # AngularBlog
 
+Dieses Projekt wurde für den Kurs Web-Applikationen erstellt.
+Anhand des Frontend teils von einem Blog sollen diverese Übungen gemacht werden.
+Eine Backend anbindung für den Blog wird durch den Dozenten zur verfügung gestellt.
+Das Frontende wird mit Angular umgesetzt.
+
+## Build From
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
 
 ## Development server
