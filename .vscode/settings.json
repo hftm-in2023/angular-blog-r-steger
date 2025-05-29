@@ -1,4 +1,9 @@
 {
-  "appService.defaultWebAppToDeploy": "undefined/subscriptions/0afa0a2c-7bcd-4ee8-92ff-b58e9033862d/resourceGroups/appsvc_linux_switzerlandnorth/providers/Microsoft.Web/sites/blog",
-  "appService.deploySubpath": "."
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
