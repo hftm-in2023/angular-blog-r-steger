@@ -63,7 +63,7 @@ jobs:
     needs: build
     environment:
       name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      url: 'https://blog-aubec7fadnchgdfs.switzerlandnorth-01.azurewebsites.net'
 
     steps:
     - name: Download artifact from build job
