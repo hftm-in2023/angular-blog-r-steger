@@ -32,8 +32,9 @@ jobs:
           action: "upload"
           app_location: "/" # bleibt /
           api_location: "" # leer, wenn du keine Azure Functions hast
-          output_location: "dist/angular-blog-r-steger/browser" # das muss zum Output deiner Angular-App passen
-          
+          output_location: "dist/angular-blog-r-steger/browser"
+          skip_app_build: true # ⬅️ Wichtig: Azure soll nicht nochmal bauen!
+
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
