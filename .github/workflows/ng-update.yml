@@ -2,7 +2,7 @@ name: "Update Angular Action"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 13 * * 4' # Jeweils Donnerstag um 13:00
+    - cron: '00 02 * * 1' # Jeweils Montag um 02:00
 
 jobs:
   ngxUptodate:
@@ -12,4 +12,4 @@ jobs:
         uses: fast-facts/ng-update@v1
         with:
           base-branch: main
-          rep-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
