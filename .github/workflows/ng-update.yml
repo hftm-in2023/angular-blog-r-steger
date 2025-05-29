@@ -1,7 +1,8 @@
 name: "Update Angular Action"
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '45 12 * * 4' # Jeweils Donnerstag um 12:45
+    - cron: '00 13 * * 4' # Jeweils Donnerstag um 13:00
 
 jobs:
   ngxUptodate:
