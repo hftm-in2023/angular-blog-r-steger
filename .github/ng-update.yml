@@ -1,7 +1,7 @@
 name: "Update Angular Action"
 on:
   schedule:
-    - cron: '0 2 * * 1' # Jeweils Montags um 02:00
+    - cron: '30 12 * * 3' # Jeweils Mittwoch um 12:30
 
 jobs:
   ngxUptodate:
