@@ -28,7 +28,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLOW_GLACIER_0A5249003 }}
           action: "upload"
-          output_location: "./dist/angular-blog-r-steger2/browser"
+          output_location: "./dist/angular-blog-r-steger/browser"
           app_location: "/"
           #skip_app_build: true
 
